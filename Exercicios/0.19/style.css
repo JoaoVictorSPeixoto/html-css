@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "neve";
+    src: url('fonts/Winter\ Sunday.ttf') format('truetype');
+}
+/*
+    em HTML id = # em CSS
+    em HTML class = . em CSS
+
+*/
+
+body{
+
+    background-color: rgb(219, 255, 219) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(71, 151, 71);
+}
+
+h1#principal{
+    text-align: center;
+   
+    border-radius: 3px;
+    font-family: neve, Arial, Helvetica, sans-serif;
+    font-size: 5em;
+    font-weight: normal;
+}
+
+h2{
+    color: rgb(102, 148, 102);
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+.basico{
+    color: rgb(82, 81, 163);
+}
+.intermediario{
+    color: rgb(162, 163, 81);
+}
+
+.avancado{
+    color: rgb(163, 81, 81);
+}
+
+.destaque{
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgba(255, 124, 124, 0.522);
+}
